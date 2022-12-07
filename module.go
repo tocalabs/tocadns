@@ -1,8 +1,6 @@
 package tocadns
 
 import (
-	"fmt"
-
 	"github.com/caddyserver/caddy/v2"
 	"github.com/caddyserver/caddy/v2/caddyconfig/caddyfile"
 	godaddy "github.com/tocalabs/tlsdns.godaddy"
