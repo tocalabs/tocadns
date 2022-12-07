@@ -23,7 +23,6 @@ func (Provider) CaddyModule() caddy.ModuleInfo {
 	}
 }
 
-// TODO: This is just an example. Useful to allow env variable placeholders; update accordingly.
 // Provision sets up the module. Implements caddy.Provisioner.
 func (p *Provider) Provision(ctx caddy.Context) error {
 	p.Provider.APIToken = caddy.NewReplacer().ReplaceAll(p.Provider.APIToken, "")
@@ -31,7 +30,6 @@ func (p *Provider) Provision(ctx caddy.Context) error {
 	return fmt.Errorf("TODO: not implemented")
 }
 
-// TODO: This is just an example. Update accordingly.
 // UnmarshalCaddyfile sets up the DNS provider from Caddyfile tokens. Syntax:
 //
 // tocadns [<api_token>] {
@@ -39,7 +37,6 @@ func (p *Provider) Provision(ctx caddy.Context) error {
 // 	   api_host <api_host>
 // }
 //
-// **THIS IS JUST AN EXAMPLE AND NEEDS TO BE CUSTOMIZED.**
 func (p *Provider) UnmarshalCaddyfile(d *caddyfile.Dispenser) error {
 	for d.Next() {
 		if d.NextArg() {
