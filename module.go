@@ -27,7 +27,7 @@ func (Provider) CaddyModule() caddy.ModuleInfo {
 func (p *Provider) Provision(ctx caddy.Context) error {
 	p.Provider.APIToken = caddy.NewReplacer().ReplaceAll(p.Provider.APIToken, "")
 	p.Provider.APIHost = caddy.NewReplacer().ReplaceAll(p.Provider.APIHost, "")
-	return fmt.Errorf("TODO: not implemented")
+	return nil
 }
 
 // UnmarshalCaddyfile sets up the DNS provider from Caddyfile tokens. Syntax:
