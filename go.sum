@@ -649,6 +649,8 @@ github.com/tocalabs/tlsdns.godaddy v0.0.0-20221129135614-efec762b704f h1:hXQrF0z
 github.com/tocalabs/tlsdns.godaddy v0.0.0-20221129135614-efec762b704f/go.mod h1:0UpnMRv0tFEPJbdfr+VI8Xp+l54VOy6dEr4/zNJVMHs=
 github.com/tocalabs/tlsdns.godaddy v0.0.0-20221208102414-4c1b42a19e28 h1:HefI+IfPNqpcxSS4SPXHc/oGxwhzWR1GW+jmVgaw0/Q=
 github.com/tocalabs/tlsdns.godaddy v0.0.0-20221208102414-4c1b42a19e28/go.mod h1:0UpnMRv0tFEPJbdfr+VI8Xp+l54VOy6dEr4/zNJVMHs=
+github.com/tocalabs/tlsdns.godaddy v0.0.0-20221208104550-f6ccbd00bbbf h1:ARHyW1kyB6HtT1efK8XerRP0Xv0uAX67cJvW4Eyoxlo=
+github.com/tocalabs/tlsdns.godaddy v0.0.0-20221208104550-f6ccbd00bbbf/go.mod h1:0UpnMRv0tFEPJbdfr+VI8Xp+l54VOy6dEr4/zNJVMHs=
 github.com/tomasen/realip v0.0.0-20180522021738-f0c99a92ddce/go.mod h1:o8v6yHRoik09Xen7gje4m9ERNah1d1PPsVq1VEx9vE4=
 github.com/tommy-muehle/go-mnd v1.1.1/go.mod h1:dSUh0FtTP8VhvkL1S+gUR1OKd9ZnSaozuI6r3m6wOig=
 github.com/ugorji/go v1.1.4/go.mod h1:uQMGLiO92mf5W77hV/PUCpI3pbzQx3CRekS0kk+RGrc=
